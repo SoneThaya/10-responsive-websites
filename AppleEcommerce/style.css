@@ -425,3 +425,177 @@ html {
 /* End of Section 3 Info */
 /* End of Section 3 Content */
 /*End of Section 3 */
+
+/* Section 4 */
+.section-4 {
+  height: 140vh;
+  padding: 20vh 0;
+  flex-direction: column;
+  position: relative;
+}
+
+/* Section 4 Watches */
+.watches {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.watches > div {
+  position: absolute;
+}
+/* Watch Bands */
+.watch-bands {
+  transition: margin-right 1s;
+}
+
+.watch-band-img {
+  width: 35rem;
+  height: 35rem;
+  object-fit: contain;
+}
+/* End of Watch Bands */
+
+/* Watch Cases */
+.watch-cases {
+  flex-direction: column;
+  transition: margin-top 1s;
+}
+
+.watch-case-img {
+  width: 35rem;
+  height: 35rem;
+  object-fit: contain;
+}
+/* End of Watch Cases */
+/* End of Section 4 Watches */
+
+/* Watch Controls */
+.watch-control {
+  position: absolute;
+  width: 4rem;
+  height: 4rem;
+  background-color: rgba(221, 221, 221, 0.4);
+  border-radius: 5rem;
+}
+
+.hideControl {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.watch-control i {
+  font-size: 3rem;
+  color: var(--primary-color);
+}
+
+.watch-top-control {
+  top: 22vh;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.watch-right-control {
+  top: 50%;
+  right: 2rem;
+  transform: translateY(-50%);
+}
+
+.watch-bottom-control {
+  left: 50%;
+  bottom: 20vh;
+  transform: translateX(-50%);
+}
+
+.watch-left-control {
+  top: 50%;
+  left: 2rem;
+  transform: translateY(-50%);
+}
+/* End of Watch Controls */
+
+/* Watch Button */
+.watch-btn {
+  position: absolute;
+  bottom: 30vh;
+  right: 35%;
+  width: 13rem;
+  height: 5rem;
+  background-color: var(--black-color);
+  color: var(--primary-color);
+  border: 0.1rem dashed var(--white-color);
+  border-radius: 4rem;
+  font-size: 1.6rem;
+  font-weight: 200;
+  cursor: pointer;
+}
+/* End of Watch Button */
+/* End of Section 4 */
+
+/* Section 5 */
+.section-5 {
+  width: 100%;
+  height: 100vh;
+}
+
+/* Section 5 Content */
+.airpods {
+  width: 90%;
+  height: 80%;
+  display: flex;
+  position: relative;
+}
+
+/* Section 5 Heading */
+.section-5-heading {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 15rem;
+  font-weight: 300;
+  color: var(--white-color);
+  text-shadow: 0.1rem 0.1rem 0 #999;
+}
+/* End of Section 5 Heading */
+
+/* Section 5 Images */
+.airpods img {
+  width: 50%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.airpods-img-2 {
+  background-color: var(--primary-color);
+}
+/* End of Section 5 Images */
+
+/* Section 5 Buttons */
+.airpods-buttons {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 5rem;
+}
+
+.airpods-btn {
+  width: 15rem;
+  height: 4rem;
+  background-color: var(--primary-color);
+  margin: 0 2rem;
+  border: none;
+  border-radius: 0.5rem;
+  color: var(--white-color);
+  cursor: pointer;
+}
+
+.airpods-btn:last-child {
+  background-color: var(--white-color);
+  color: var(--primary-color);
+}
+/* End of Section 5 Buttons */
+/* End of Section 5 Content */
+/* End of Section 5 */
