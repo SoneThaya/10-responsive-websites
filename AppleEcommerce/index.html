@@ -2,48 +2,84 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Apple eCommerce</title>
+    <link rel="shortcut icon" href="images/Icons/home-icon.png" />
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
     />
   </head>
   <body>
     <div class="container">
-      <!-- section 1 -->
-      <section class="section-1">
-        <!-- logo -->
+      <!-- Section 1 -->
+      <section class="section-1" id="section-1">
+        <!-- Logo -->
         <a href="#" class="logo">
           <i class="fab fa-apple"></i>
         </a>
-        <!-- end of logo -->
+        <!--End of Logo -->
 
-        <!-- navbar -->
+        <!-- Navbar -->
         <nav class="navbar">
-          <a href="#" class="navbar-link">iPhone12</a>
-          <a href="#" class="navbar-link">MacBook Air</a>
-          <a href="#" class="navbar-link">Watch</a>
-          <a href="#" class="navbar-link">AirPods</a>
+          <a href="#section-2" class="navbar-link">iPhone 12</a>
+          <a href="#section-3" class="navbar-link">MacBook Air</a>
+          <a href="#section-3" class="navbar-link">Watch</a>
+          <a href="#section-4" class="navbar-link">AirPods</a>
         </nav>
-        <!-- end of navbar -->
+        <!-- End of Navbar -->
 
-        <!-- banner -->
+        <!-- Cube -->
+        <div class="cube-wrapper">
+          <div class="cube">
+            <div class="front-side">
+              <img src="images/iphone.png" />
+            </div>
+            <div class="back-side center">
+              <i class="fab fa-apple"></i>
+            </div>
+          </div>
+
+          <!-- Controls -->
+          <div class="controls">
+            <a href="#" class="top-x-control">
+              <i class="fas fa-arrow-up"></i>
+            </a>
+            <a href="#" class="bottom-x-control">
+              <i class="fas fa-arrow-down"></i>
+            </a>
+            <a href="#" class="left-y-control">
+              <i class="fas fa-arrow-left"></i>
+            </a>
+            <a href="#" class="right-y-control">
+              <i class="fas fa-arrow-right"></i>
+            </a>
+            <a href="#" class="top-z-control">
+              <i class="fas fa-arrow-down"></i>
+            </a>
+            <a href="#" class="bottom-z-control">
+              <i class="fas fa-arrow-up"></i>
+            </a>
+          </div>
+          <!-- End of Controls -->
+        </div>
+        <!-- End of Cube -->
+
+        <!-- Banner -->
         <div class="section-1-banner center">
-          <h1>&#8592;Best Gift</h1>
+          <h1>&#8592; Best Gift</h1>
           <p>"Creativity is just connecting things."</p>
-          <span>- Steve Jobs</span>
+          <span> - Steve Jobs</span>
           <button type="button">Buy Now</button>
         </div>
-        <!-- end of banner -->
+        <!-- End of Banner -->
 
-        <!-- slideshow  -->
+        <!-- Slideshow -->
         <div class="slideshow"></div>
-        <!-- end of slideshow  -->
+        <!-- End of Slideshow -->
       </section>
-      <!-- end of section 1 -->
+      <!-- End of Section 1 -->
 
       <!-- Section 2 -->
       <section class="section-2" id="section-2">
@@ -182,8 +218,32 @@
         <!-- End of Section 5 Content -->
       </section>
       <!-- End of Section 5 -->
-    </div>
 
+      <!-- Section 6 -->
+      <section class="section-6 center">
+        <div class="section-6-icons">
+          <a href="#section-1" class="icon-link">
+            <img src="images/Icons/home-icon.png" />
+          </a>
+          <a href="#section-2" class="icon-link">
+            <img src="images/Icons/iphone-icon.png" />
+          </a>
+          <a href="#section-3" class="icon-link">
+            <img src="images/Icons/macbook-icon.png" />
+          </a>
+          <a href="#section-4" class="icon-link">
+            <img src="images/Icons/watch-icon.png" />
+          </a>
+          <a href="#section-5" class="icon-link">
+            <img src="images/Icons/airpods-icon.png" />
+          </a>
+        </div>
+        <p class="copyright">
+          Copyright &copy; CodeAndCreate All Rights Reserved
+        </p>
+      </section>
+      <!-- End of Section 6 -->
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
